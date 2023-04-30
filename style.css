@@ -87,7 +87,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.small {
+.Small {
   font-size: 0.875rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -95,7 +95,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.large {
+.Large {
   font-size: 0.875rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -103,7 +103,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.medium {
+.Medium {
   font-size: 1.125rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -111,7 +111,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.body {
+.Body {
   font-size: 1rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -119,7 +119,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.headingOne {
+.HeadingOne {
   font-size: 2.25rem;
   font-family: Open Sans;
   font-weight: 700;
@@ -127,7 +127,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.headingTwo {
+.HeadingTwo {
   font-size: 1.875rem;
   font-family: Open Sans;
   font-weight: 700;
@@ -135,7 +135,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.lead {
+.Lead {
   font-size: 1.25rem;
   font-family: Open Sans;
   font-weight: 400;
@@ -143,7 +143,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.headingThree {
+.HeadingThree {
   font-size: 1.25rem;
   font-family: Open Sans;
   font-weight: 600;
@@ -151,7 +151,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.label {
+.Label {
   font-size: 0.75rem;
   font-family: Open Sans;
   font-weight: 700;
@@ -159,7 +159,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.buttonSmall {
+.ButtonSmall {
   font-size: 0.75rem;
   font-style: normal;
   font-family: Open Sans;
