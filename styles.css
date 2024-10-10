@@ -9,24 +9,33 @@ body {
     color: #333;
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 section {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 60px 10%;
     min-height: 100vh;
+    color: white;
 }
 
 .hero-section {
-    background-color: #f0f0f0;
+    background: rgba(0, 0, 0, 0.6); /* To make the text readable on top of the video */
 }
 
 .features-section {
-    background-color: #e0e0e0;
+    background: rgba(0, 0, 0, 0.6); /* To keep readability for the second section */
 }
 
 .content {
-    max-width: 500px;
+    max-width: 600px;
+    text-align: center;
 }
 
 h1 {
@@ -63,10 +72,25 @@ p {
     font-weight: bold;
 }
 
-.image-container img {
-    max-width: 400px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* Video Background Styles */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 
 .features-grid {
